@@ -2403,7 +2403,7 @@ template {
     font-size: 52px;
     color: #9d9d9d;
     text-align: center;
-    width: 400px;
+    width: 100%;
     margin: 35px auto; } }
 
 *, *:before, *:after {
