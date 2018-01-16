@@ -494,12 +494,11 @@ template {
         color: #0ceb80; }
   .main-img {
     width: 100%;
-    background: url("../img/header.jpg") -380px 0;
+    background-image: url("../img/header.jpg");
     -webkit-background-size: cover;
             background-size: cover;
-    min-height: 500px;
-    padding: 1px;
-    overflow: hidden; }
+    min-height: 370px;
+    padding: 1px; }
     .main-img_title {
       color: #fff;
       font-family: "Montserrat Alternates", sans-serif;
@@ -531,7 +530,7 @@ template {
     width: 100%;
     margin: 0 auto; }
     .services_container {
-      width: 100%;
+      width: 95%;
       min-height: 300px;
       border: 1px solid #afafaf;
       -webkit-border-radius: 8px;
@@ -598,8 +597,7 @@ template {
     -webkit-transition: 1s;
     -o-transition: 1s;
     transition: 1s;
-    padding: 1px;
-    overflow: hidden; }
+    padding: 1px; }
     .triangles_inner {
       width: 100%;
       height: 300px;
@@ -610,8 +608,7 @@ template {
       position: relative;
       -webkit-transition: .5s;
       -o-transition: .5s;
-      transition: .5s;
-      overflow: hidden; }
+      transition: .5s; }
       .triangles_inner__discount-subtitle {
         font-family: "Montserrat Alternates", sans-serif;
         font-size: 34px;
@@ -633,7 +630,8 @@ template {
   .gal {
     width: 100%;
     background-color: #f5f5f5;
-    padding: 1px; }
+    padding: 1px;
+    margin-top: -1px; }
     .gal_title {
       font-family: "Montserrat Alternates", sans-serif;
       font-size: 52px;
@@ -863,7 +861,8 @@ template {
     background-color: #222222;
     text-align: center;
     color: #9d9d9d;
-    padding-top: 20px; }
+    padding-top: 20px;
+    font-family: "Montserrat Alternates", sans-serif; }
   .socials-color {
     color: #e3e3e3;
     -webkit-transition: .2s;
@@ -1022,7 +1021,7 @@ template {
     -o-transition: 1s;
     transition: 1s; }
   .services {
-    width: 100%;
+    width: 95%;
     margin: 0 auto; }
     .services_container {
       width: 650px;
@@ -1127,7 +1126,8 @@ template {
   .gal {
     width: 100%;
     background-color: #f5f5f5;
-    padding: 1px; }
+    padding: 1px;
+    margin-top: -1px; }
     .gal_title {
       font-family: "Montserrat Alternates", sans-serif;
       font-size: 52px;
@@ -1355,7 +1355,8 @@ template {
     background-color: #222222;
     text-align: center;
     color: #9d9d9d;
-    padding-top: 20px; }
+    padding-top: 20px;
+    font-family: "Montserrat Alternates", sans-serif; }
   .socials-color {
     color: #e3e3e3;
     -webkit-transition: .2s;
@@ -1606,7 +1607,7 @@ template {
       transition: .5s;
       overflow: hidden; }
       .triangles_inner__discount-subtitle {
-        font-family: 'Dancing Script', cursive;
+        font-family: "Montserrat Alternates", sans-serif;
         font-size: 40px;
         text-align: center;
         position: absolute;
@@ -1615,7 +1616,7 @@ template {
         color: #fff; }
       .triangles_inner__discount {
         color: transparent;
-        font-family: 'Dancing Script', cursive;
+        font-family: "Montserrat Alternates", sans-serif;
         font-size: 52px;
         position: absolute;
         top: 100px;
@@ -1625,7 +1626,7 @@ template {
         transition: 1s; }
     .triangles_inner:hover .triangles_inner__discount {
       color: #fff;
-      font-family: 'Dancing Script', cursive;
+      font-family: "Montserrat Alternates", sans-serif;
       font-size: 52px;
       position: absolute;
       top: 100px;
@@ -1640,7 +1641,7 @@ template {
       -o-transition: .5s;
       transition: .5s; }
     .triangles_out {
-      font-family: 'Dancing Script', cursive;
+      font-family: "Montserrat Alternates", sans-serif;
       font-size: 52px;
       color: transparent;
       -webkit-transition: 1s;
@@ -1648,7 +1649,7 @@ template {
       transition: 1s;
       margin: 0 0 100px 500px; }
   .triangles:hover .triangles_out {
-    font-family: 'Dancing Script', cursive;
+    font-family: "Montserrat Alternates", sans-serif;
     font-size: 52px;
     color: #fff;
     -webkit-transition: 1s;
@@ -1936,7 +1937,8 @@ template {
     background-color: #222222;
     text-align: center;
     color: #9d9d9d;
-    padding-top: 20px; }
+    padding-top: 20px;
+    font-family: "Montserrat Alternates", sans-serif; }
   .socials-color {
     color: #e3e3e3;
     -webkit-transition: .2s;
@@ -1981,7 +1983,7 @@ template {
 @media (max-width: 480px) {
   .header {
     width: 100%;
-    height: 170px;
+    height: 180px;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -2001,13 +2003,14 @@ template {
     .header_logo {
       height: 100%;
       font-family: "Montserrat Alternates", sans-serif;
-      font-size: 36px;
+      font-size: 20px;
       color: #9d9d9d;
       text-decoration: none;
       float: left;
       padding: 20px 0 0 5px; }
     .header_nav {
-      margin: 20px 0 0 20%; }
+      margin: 20px 0 0 20%;
+      padding-right: 2px; }
       .header_nav__links {
         display: inline-block;
         text-decoration: none;
@@ -2073,7 +2076,7 @@ template {
     width: 100%;
     margin: 0 auto; }
     .services_container {
-      width: 100%;
+      width: 95%;
       min-height: 300px;
       border: 1px solid #afafaf;
       -webkit-border-radius: 8px;
@@ -2136,33 +2139,25 @@ template {
     width: 100%;
     height: auto;
     -webkit-background-size: cover;
-            background-size: cover;
-    -webkit-transition: 1s;
-    -o-transition: 1s;
-    transition: 1s;
-    overflow: hidden; }
+            background-size: cover; }
     .triangles_inner {
       width: 100%;
       height: 200px;
       background: url("../img/discount.jpg") 1px 1px;
       -webkit-background-size: cover;
               background-size: cover;
-      position: relative;
-      -webkit-transition: .5s;
-      -o-transition: .5s;
-      transition: .5s;
-      overflow: hidden; }
+      position: relative; }
       .triangles_inner__discount-subtitle {
-        font-family: 'Dancing Script', cursive;
+        font-family: "Montserrat Alternates", sans-serif;
         font-size: 24px;
         text-align: center;
         position: absolute;
         top: 40px;
-        left: 85px;
+        left: 30px;
         color: #fff; }
       .triangles_inner__discount {
         color: #fff;
-        font-family: 'Dancing Script', cursive;
+        font-family: "Montserrat Alternates", sans-serif;
         font-size: 24px;
         position: absolute;
         top: 100px;
@@ -2396,14 +2391,15 @@ template {
       margin-left: 10%;
       position: absolute;
       bottom: 10px;
-      left: 250px; }
+      left: 190px; }
   .made-by {
     width: 100%;
     height: 50px;
     background-color: #222222;
     text-align: center;
     color: #9d9d9d;
-    padding-top: 20px; }
+    padding-top: 20px;
+    font-family: "Montserrat Alternates", sans-serif; }
   .socials-color {
     color: #e3e3e3;
     -webkit-transition: .2s;
@@ -2427,7 +2423,7 @@ template {
       font-size: 18px;
       color: #000;
       margin-top: 130px;
-      padding: 10px 0 10px 10%;
+      padding: 10px 0 10px 5%;
       width: 100%;
       border-top: 1px solid #fff;
       border-bottom: 1px solid #fff;
@@ -2513,7 +2509,7 @@ body {
         color: #0ceb80; }
   .main-img {
     width: 100%;
-    background: url("../img/header.jpg");
+    background-image: url("../img/header.jpg");
     -webkit-background-size: cover;
             background-size: cover;
     height: 500px;
@@ -3000,7 +2996,8 @@ body {
     background-color: #222222;
     text-align: center;
     color: #9d9d9d;
-    padding-top: 20px; }
+    padding-top: 20px;
+    font-family: "Montserrat Alternates", sans-serif; }
   .socials-color {
     color: #e3e3e3;
     -webkit-transition: .2s;
